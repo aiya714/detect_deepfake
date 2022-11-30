@@ -1,0 +1,12 @@
+200 epochs completed in 4.222 hours.
+Optimizer stripped from runs/train/1125_R16_med/weights/last.pt, 92.8MB
+Optimizer stripped from runs/train/1125_R16_med/weights/best.pt, 92.8MB
+
+Validating runs/train/1125_R16_med/weights/best.pt...
+Fusing layers... 
+YOLOv5l summary: 267 layers, 46113663 parameters, 0 gradients, 107.7 GFLOPs
+                 Class     Images  Instances          P          R      mAP50   mAP50-95: 100%|██████████| 13/13 [00:05<00:00,  2.32it/
+                   all        682       1440      0.928      0.932      0.975      0.822
+                  fake        682        695      0.925      0.945       0.98      0.828
+                  real        682        745      0.932      0.919       0.97      0.817
+Results saved to runs/train/1125_R16_med
